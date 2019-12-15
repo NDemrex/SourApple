@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="registerPage.css">
+<body>
+
+	<form action="registerhandler.php" method="post">
+		<div class="container">
+			<h1>Register</h1>
+			<p>Please fill in this form to create an account.</p>
+			<img
+				src="https://cdn.discordapp.com/attachments/631158260317028374/636365279261360139/Logo.png"
+				alt="logo" width=250 height=100>
+			<hr>
+			<label for="firstName"><b>First Name*</b></label> <input type="text"
+				name="firstName"> <label for="lastName"><b>Last
+					Name*</b></label> <input type="text" name="lastName"> <label
+				for="email"><b>Email*</b></label> <input type="text" name="email">
+
+			<label for="userName"><b>User Name*</b></label> <input type="text"
+				name="userName"> <label for="password"><b>Password*</b></label>
+			<input type="text" name="password">
+
+			<hr>
+			<input type="Submit" name="submit">
+		</div>
+
+		<div class="container signin">
+			<p>
+				Already have an account? <a href="loginpage.html">Sign in</a>.
+			</p>
+			<button type="button" class="cancelbtn">
+				<a href="index.html" style="color: #FFFFFF;">Home</a>
+			</button>
+		</div>
+	</form>
+
+</body>
+</html>

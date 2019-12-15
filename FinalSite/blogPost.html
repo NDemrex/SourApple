@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Blogpost.css">
+</head>
+<body>
+	<div class="header">
+		<h2>Create a new blog</h2>
+	</div>
+	<div class="container">
+		<form action="posthandler.php" method="post">
+			<header>
+				<img
+					src="https://cdn.discordapp.com/attachments/631158260317028374/636365279261360139/Logo.png"
+					alt="logo" width=250 height=100>
+				<hr>
+				<ul>
+					<li style="display: inline;"><a href="makeBlogRequest.php">List Blogs</a></li>
+
+					<li style="display: inline;"><a href="whoAmI.php">Who am I</a></li>
+
+					<li style="display: inline;"><a href="searchBlogs.html">Search blogs</a></li>
+
+					<li style="display: inline;"><a href="index.html">Bye!</a></li>
+
+				</ul>
+				<hr>
+			</header>
+			
+			<div class="row">
+				<div class="col-25">
+					<label for="fname">Blog Title</label>
+				</div>
+				<div class="col-75">
+					<input type="text" name="Title" name="Title"
+						placeholder="Title of the blog">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="subject">Subject</label>
+				</div>
+				<div class="col-75">
+					<textarea name="Content" rows="10" cols="50"
+						placeholder="Write something.." style="height: 200px"></textarea>
+				</div>
+			</div>
+			<input type="submit" name="Post" value="Post">
+		</form>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="searchBlogs.css">
+<body>
+
+	<h2>Welcome! Please enter the Title or Author of the Blog you are looking for</h2>
+	<ul>
+	<li style="display: inline;"><a href="whoAmI.php">Who am I</a></li>	
+	
+	<li style="display: inline;"><a href="blogpost.html">Blog it</a></li>
+	
+	<li style="display: inline;"><a href="makeBlogRequest.php">View all blogs</a></li>
+	
+	</ul>
+	<hr>
+	<form action="searchBlogHandler.php" method="post">
+		<div class="container">
+			Title*:<br> <input 
+			type="text" name="Title"><br>
+
+			Author*:<br> <input
+				type="text" name="Content"><br> 
+				<input type="Submit" name="submit"> <br>
+		</div>
+
+		<div class="container" style="background-color: #f1f1f1">
+			<button type="button" class="cancelbtn">
+				<a href="index.html">Home</a>
+			</button>
+		</div>
+	</form>
+</body>
+</html>
